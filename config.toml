@@ -6,7 +6,7 @@ paginate = "5" # Number of posts per page
 theme = "../../zeanzaiblogtheme"
 contentDir = "../zeanzaiblogarticle"
 publishDir = "../zeanzai.github.io"
-disqusShortname = "" # Enable comments by entering your Disqus shortname
+disqusShortname = "ciqu" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 PaginatePath = "page"
@@ -87,7 +87,19 @@ PaginatePath = "page"
     weight = 6
 
 [[menu.main]]
+    identifier = "other"
+    name = "其他"
+    url = "/post/other/"
+    weight = 7
+
+[[menu.main]]
+    identifier = "dev"
+    name = "Q&A"
+    url = "/post/dev/"
+    weight = 8
+
+[[menu.main]]
     identifier = "about"
     name = "关于我"
     url = "/post/about/"
-    weight = 7
+    weight = 20
