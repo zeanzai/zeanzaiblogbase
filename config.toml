@@ -99,6 +99,12 @@ PaginatePath = "page"
     weight = 8
 
 [[menu.main]]
+    identifier = "Tips"
+    name = "技巧"
+    url = "/post/tips/"
+    weight = 9
+
+[[menu.main]]
     identifier = "about"
     name = "关于我"
     url = "/post/about/"
