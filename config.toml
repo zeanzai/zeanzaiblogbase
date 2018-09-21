@@ -2,36 +2,43 @@
 baseURL = "https://zeanzai.github.io"
 title = "天晴小猪"
 languageCode = "zh-CN"
-paginate = "5" # Number of posts per page
+paginate = "10" # Number of posts per page
 theme = "../../zeanzaiblogtheme"
 contentDir = "../zeanzaiblogarticle"
 publishDir = "../zeanzai.github.io"
 disqusShortname = "ciqu" # Enable comments by entering your Disqus shortname
-googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+googleAnalytics = "UA-126218706-1" # Enable Google Analytics by entering your tracking id
 
 PaginatePath = "page"
 
 [Author]
     name = "天晴小猪"
-    bio = "有个爱的人，有份爱的工作，敲敲代码，看看书，这样，过一生。"
+    bio = "我活在世上，无非想要明白些道理，遇见些有趣的事。倘能如我所愿，我的一生就算成功。"
     avatar = "img/avatar.png"
     homepage = "https://zeanzai.github.io"
 
 [Params]
-    subtitle = "有个爱的人，有份爱的工作，敲敲代码，看看书，这样，过一生。" # Subtitle of your site. Used in site header
-    description = "What else did you expect me to say?"
+    subtitle = "我活在世上，无非想要明白些道理，遇见些有趣的事。倘能如我所愿，我的一生就算成功。" # Subtitle of your site. Used in site header
+    description = "天晴小猪 | 关于后端与架构设计 | Software Engineer | Backend | JAVA | DevOps | Linux | IDEA | Microservice | 我活在世上，无非想要明白些道理，遇见些有趣的事。倘能如我所愿，我的一生就算成功。" # 用于SEO优化
+    keywords = "关于后端 | 天晴小猪 | zeanzai | github | Software Engineer | Backend | JAVA | DevOps | Linux | IDEA | Microservice | Docker | SpringMVC | Mybatis | SpringBoot | SpringCloud | Mysql"
     opengraph = true # Enable OpenGraph if true
     twitter_cards = false # Enable Twitter Cards if true
     readmore = true # Show "Read more" button in list if true
     authorbox = true # Show authorbox at bottom of pages if true
-    #toc = true # Enable Table of Contents
+    toc = true # Enable Table of Contents
     post_navigation = true # Show post navigation at bottom of pages if true
     # postSections = ["post"] # the section pages to show on home page and the "Recent articles" widget
     #postSections = ["blog", "news"] # alternative that shows more than one section's pages
     #dateformat = "2006-01-02" # change the format of dates
-    # mathjax = true # Enable MathJax
-    #mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" # Specify MathJax path
-    #mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+    mathjax = true # Enable MathJax
+    mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" # Specify MathJax path
+    mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+
+    gitment = true
+    owner = "zeanzai"
+    repo = "zeanzai.github.io"
+    client_id = "00cecd6ea74b9ac42e0b"
+    client_secret = "4cb97b02c478cfc48250792977869a7452f7b8bc"
 [Params.sidebar]
     home = "right" # Configure layout for home page
     list = "right"  # Configure layout for list pages
