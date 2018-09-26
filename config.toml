@@ -1,12 +1,12 @@
 
-baseURL = "https://zeanzai.github.io"
+baseURL = "https://zeanzai.me"
 title = "天晴小猪"
 languageCode = "zh-CN"
 paginate = "10" # Number of posts per page
 theme = "../../zeanzaiblogtheme"
 contentDir = "../zeanzaiblogarticle"
 publishDir = "../zeanzai.github.io"
-disqusShortname = "ciqu" # Enable comments by entering your Disqus shortname
+disqusShortname = "zeanzai" # ciqu Enable comments by entering your Disqus shortname
 googleAnalytics = "UA-126218706-1" # Enable Google Analytics by entering your tracking id
 
 PaginatePath = "page"
@@ -15,7 +15,7 @@ PaginatePath = "page"
     name = "天晴小猪"
     bio = "我活在世上，无非想要明白些道理，遇见些有趣的事。倘能如我所愿，我的一生就算成功。"
     avatar = "img/avatar.png"
-    homepage = "https://zeanzai.github.io"
+    homepage = "https://zeanzai.me"
 
 [Params]
     subtitle = "我活在世上，无非想要明白些道理，遇见些有趣的事。倘能如我所愿，我的一生就算成功。" # Subtitle of your site. Used in site header
@@ -34,11 +34,11 @@ PaginatePath = "page"
     mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" # Specify MathJax path
     mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
 
-    gitment = true
-    owner = "zeanzai"
-    repo = "zeanzai.github.io"
-    client_id = "00cecd6ea74b9ac42e0b"
-    client_secret = "4cb97b02c478cfc48250792977869a7452f7b8bc"
+    #gitment = true
+    #owner = "zeanzai"
+    #repo = "zeanzai.github.io"
+    #client_id = "00cecd6ea74b9ac42e0b"
+    #client_secret = "4cb97b02c478cfc48250792977869a7452f7b8bc"
 [Params.sidebar]
     home = "right" # Configure layout for home page
     list = "right"  # Configure layout for list pages
