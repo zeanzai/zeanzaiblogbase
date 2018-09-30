@@ -8,8 +8,8 @@ contentDir = "../zeanzaiblogarticle"
 publishDir = "../zeanzai.github.io"
 disqusShortname = "zeanzai" # ciqu Enable comments by entering your Disqus shortname
 googleAnalytics = "UA-126218706-1" # Enable Google Analytics by entering your tracking id
-
 PaginatePath = "page"
+
 
 [Author]
     name = "天晴小猪"
@@ -17,28 +17,29 @@ PaginatePath = "page"
     avatar = "img/avatar.png"
     homepage = "https://zeanzai.me"
 
+[social]
+    twitter = "zeanzaime" # twitter 的用户名
+
 [Params]
     subtitle = "我活在世上，无非想要明白些道理，遇见些有趣的事。倘能如我所愿，我的一生就算成功。" # Subtitle of your site. Used in site header
     description = "天晴小猪 | 关于后端与架构设计 | Software Engineer | Backend | JAVA | DevOps | Linux | IDEA | Microservice | 我活在世上，无非想要明白些道理，遇见些有趣的事。倘能如我所愿，我的一生就算成功。" # 用于SEO优化
     keywords = "关于后端 | 天晴小猪 | zeanzai | github | Software Engineer | Backend | JAVA | DevOps | Linux | IDEA | Microservice | Docker | SpringMVC | Mybatis | SpringBoot | SpringCloud | Mysql"
-    opengraph = true # Enable OpenGraph if true
-    twitter_cards = false # Enable Twitter Cards if true
+    opengraph = true # Enable OpenGraph if true # OpenGraph 协议是否开启
+    twitter_cards = true # Enable Twitter Cards if true
+    images = ["img/zeanzai.me.png"] # twitter 的图片
+    creator= "zeanzai"
     readmore = true # Show "Read more" button in list if true
     authorbox = true # Show authorbox at bottom of pages if true
-    toc = true # Enable Table of Contents
+    toc = false # Enable Table of Contents
     post_navigation = true # Show post navigation at bottom of pages if true
+    # post_meta = ["none"] # Order of post meta information. Use ["none"] to turn off completely.
     # postSections = ["post"] # the section pages to show on home page and the "Recent articles" widget
-    #postSections = ["blog", "news"] # alternative that shows more than one section's pages
-    #dateformat = "2006-01-02" # change the format of dates
+    # postSections = ["about", "archive"] # alternative that shows more than one section's pages
+    dateformat = "2006-01-02" # change the format of dates
     mathjax = true # Enable MathJax
     mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" # Specify MathJax path
     mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
 
-    #gitment = true
-    #owner = "zeanzai"
-    #repo = "zeanzai.github.io"
-    #client_id = "00cecd6ea74b9ac42e0b"
-    #client_secret = "4cb97b02c478cfc48250792977869a7452f7b8bc"
 [Params.sidebar]
     home = "right" # Configure layout for home page
     list = "right"  # Configure layout for list pages
@@ -52,8 +53,8 @@ PaginatePath = "page"
 
 [Params.widgets.social]
     # Enable parts of social widget
-    # facebook = "username"
-    # twitter = "username"
+    facebook = "zeanzai.me"
+    twitter = "zeanzaime"
     # linkedin = "username"
     # telegram = "username"
     github = "zeanzai"
@@ -64,55 +65,19 @@ PaginatePath = "page"
     zhihu = "zeanzai"
 
 [[menu.main]]
-    identifier = "test"
-    name = "测试"
-    url = "/post/test"
+    identifier = "home"
+    name = "HOME"
+    url = "https://zeanzai.me"
     weight = 1
 
 [[menu.main]]
-    identifier = "archives"
-    name = "存档"
-    url = "/post/archives/"
-    weight = 3
-
-[[menu.main]]
-    identifier = "network"
-    name = "计算机网络"
-    url = "/post/network/"
-    weight = 4
-
-[[menu.main]]
-    identifier = "vue"
-    name = "vue"
-    url = "/post/vue/"
-    weight = 5
-
-[[menu.main]]
-    identifier = "spring-cloud"
-    name = "spring-cloud"
-    url = "/post/spring-cloud/"
-    weight = 6
-
-[[menu.main]]
-    identifier = "other"
-    name = "其他"
-    url = "/post/other/"
-    weight = 7
-
-[[menu.main]]
-    identifier = "dev"
-    name = "Q&A"
-    url = "/post/dev/"
-    weight = 8
-
-[[menu.main]]
-    identifier = "Tips"
-    name = "技巧"
-    url = "/post/tips/"
-    weight = 9
-
-[[menu.main]]
     identifier = "about"
-    name = "关于我"
+    name = "ABOUT"
     url = "/post/about/"
-    weight = 20
+    weight = 2
+
+[[menu.main]]
+    identifier = "posts"
+    name = "ARCHIVE"
+    url = "/post/"
+    weight = 3

@@ -2,7 +2,8 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 description: ""
-thumbnail: "img/tn.png"
+thumbnail: "img/"
+keywords: ""
 categories:
   - ""
 tags:
