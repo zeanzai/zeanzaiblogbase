@@ -7,7 +7,7 @@ theme = "../../zeanzaiblogtheme"
 contentDir = "../zeanzaiblogarticle"
 publishDir = "../zeanzai.github.io"
 disqusShortname = "zeanzai" # ciqu Enable comments by entering your Disqus shortname
-googleAnalytics = "UA-126218706-1" # Enable Google Analytics by entering your tracking id
+#googleAnalytics = "UA-126218706-1" # Enable Google Analytics by entering your tracking id
 PaginatePath = "page"
 
 
@@ -53,8 +53,8 @@ PaginatePath = "page"
 
 [Params.widgets.social]
     # Enable parts of social widget
-    facebook = "zeanzai.me"
-    twitter = "zeanzaime"
+    #facebook = "zeanzai.me"
+    #twitter = "zeanzaime"
     # linkedin = "username"
     # telegram = "username"
     github = "zeanzai"
