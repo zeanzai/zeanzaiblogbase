@@ -7,7 +7,7 @@ theme = "../../zeanzaiblogtheme"
 contentDir = "../zeanzaiblogarticle"
 publishDir = "../zeanzai.github.io"
 disqusShortname = "zeanzai" # ciqu Enable comments by entering your Disqus shortname
-googleAnalytics = "UA-126218706-1" # Enable Google Analytics by entering your tracking id
+googleAnalytics = "UA-126754348-1" # Enable Google Analytics by entering your tracking id
 PaginatePath = "page"
 
 
